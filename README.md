@@ -1,4 +1,20 @@
 # tp_resaux
+
+La communication réseau :
+
+ Dans cette partie la communication entre application il se fait on utilise la programmation réseau c’est-à-dire la communication via des sockets et pour ce faire il faut l’utilisation des protocoles comme TCP qui en mode connecter ou DUP qui en mode déconnecter et ce type de protocole plus rapide que TCP pour envoyer une grande quantité d’information ou de données.
+
+Composantes principale de programmation réseau :  
+
+Serveur : ServerSocket est un objet qui permet d’ouvrir un service d’écoute qui attende si un client demande de connecter.
+Client : Socket objet dépende de chaque client lorsque un client est connecter un Socket et créer.
+
+Recevoir et envoyer des messages :
+
+Recevoir : InputStream.
+Envoyer : OutputStream.
+
+
 Partie 1:Server Multi_Thread Io Bloquantes
 
 ![ServerMT2](https://user-images.githubusercontent.com/102171677/159791183-f618ba4f-95ed-4c7a-93a8-ea3dd42d6438.png)
